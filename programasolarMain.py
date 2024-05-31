@@ -1,8 +1,8 @@
 # IMPORTAR AS BIBLIOTECAS
 from tkinter import * # biblioteca gráfica TKinter pip install tk
 from tkinter import ttk
-from docx import Document #biblioteca que importa documentos
-from openpyxl import load_workbook #Biblioteca para abrir o excel
+from docx import Document  #biblioteca que importa documentos  pip install python-docx
+from openpyxl import load_workbook #Biblioteca para abrir o excel  pip install openpyxl
 
 #Criação de dicionário para a substituição das variaveis
 def editword():
