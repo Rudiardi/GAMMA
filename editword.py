@@ -6,7 +6,14 @@ def editword():
     document = Document("MEMORIAL.docx")
     dictionary = {
         #Aqui as palavras serão substituidas por variaveis da parte da gráfica.
-        "MEMORIAL":"CACETA"
+        "potenciainversor":"CACETA",
+        "MEMORIAL": "teste"
+
+
+
+
+
+
     }
 
     for p in document.paragraphs:
