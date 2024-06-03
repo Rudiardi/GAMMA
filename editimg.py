@@ -37,5 +37,5 @@ def editimg():
                             paragraph.add_run().add_picture('fig4.png',width=Inches(3))    
 
     # Salve o documento modificado
-    document.save("CACETA.docx")
+    document.save("imgens.docx")
     print("imagens subistituida")
