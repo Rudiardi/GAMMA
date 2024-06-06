@@ -8,7 +8,6 @@ from openpyxl import load_workbook #Biblioteca para abrir o excel  pip install o
 from editimg import editimg
 from editword import editword
 
-
+editimg()
 editword()
 
-editimg()
