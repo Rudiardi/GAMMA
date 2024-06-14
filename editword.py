@@ -1,4 +1,6 @@
 from docx import Document  #biblioteca que importa documentos  pip install python-docx
+from app import obter_valor
+
 
 #Criação de dicionário para a substituição das variaveis
 def editword():
@@ -21,7 +23,7 @@ def editword():
     dictionary = {
         #Aqui as palavras serão substituidas por variaveis da parte da gráfica.
         "$POTINV":"vpotinv.get()",#POTENCIA INVERSOR
-        "$CLIENTE": "vcliente.get()",
+        "$CLIENTE": nome,
         "$RG":"vrg.get()",
         "$EMISSORRG":"vemissorrg.get()",
         "$CIDADE":"vcidade.get()",
@@ -74,7 +76,7 @@ def editword():
         "$VCAMAX":"vcamax.get()", #Máxima tensão CA – Vca-máx [V]
         "$VCAMIN":"vcamin.get()", #Mínima tensão CA – Vca-min [V]
         "$VSTR":"vvstr.get()",#tensão das strings
-        "$QTDDPS": "vqtddps.get()",#num de DPS
+        "$QTDDPS": "vqtddps.get()",#numero de DPS
 
 
 
